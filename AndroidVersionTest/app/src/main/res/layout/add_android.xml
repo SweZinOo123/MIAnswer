@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:id="@+id/BtnAdd"
+        android:layout_marginBottom="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="35dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/btnCancel"
+        android:layout_alignBaseline="@+id/BtnAdd"
+        android:layout_alignBottom="@+id/BtnAdd"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="65dp" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ImageURL"
+        android:id="@+id/textView"
+        android:layout_below="@+id/spinner"
+        android:layout_alignEnd="@+id/BtnAdd"
+        android:layout_marginTop="46dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/textView2"
+        android:layout_marginBottom="23dp"
+        android:layout_above="@+id/snippet"
+        android:layout_alignEnd="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Snippet"
+        android:id="@+id/textView14"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/textView2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageURL"
+        android:singleLine="false"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignStart="@+id/btnCancel"
+        android:layout_alignEnd="@+id/btnCancel" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignEnd="@+id/imageURL"
+        android:layout_alignStart="@+id/imageURL"
+        android:singleLine="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/snippet"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_alignStart="@+id/name"
+        android:layout_alignEnd="@+id/name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carrier"
+        android:id="@+id/textView15"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/snippet"
+        android:layout_alignEnd="@+id/textView14" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/carrier"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_alignEnd="@+id/snippet"
+        android:layout_alignStart="@+id/snippet" />
+
+</RelativeLayout>
