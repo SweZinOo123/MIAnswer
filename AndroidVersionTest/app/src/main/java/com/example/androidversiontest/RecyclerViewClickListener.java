@@ -3,7 +3,7 @@ package com.example.androidversiontest;
 import android.view.View;
 
 /**
- * Created by khantzawwin on 16/1/16.
+ * Created by tagitdev on 15/1/2016.
  */
 public interface RecyclerViewClickListener
 {

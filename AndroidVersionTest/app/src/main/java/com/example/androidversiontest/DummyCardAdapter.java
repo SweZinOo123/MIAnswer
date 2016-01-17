@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by michael hantler on 2/1/2015.
+ * Created by tagitdev on 15/1/2016.
  */
 class DummyCardAdapter extends
         RecyclerView.Adapter<DummyCardAdapter.CardViewHolder> {

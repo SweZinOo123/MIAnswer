@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * Created by halyson on 19/12/14.
+ * Created by tagitdev on 15/1/2016.
  */
 public class AndroidVersion extends HashMap<String, String> implements Serializable {
     private static final String MOCK_URL = "http://lorempixel.com/800/400/food/";
